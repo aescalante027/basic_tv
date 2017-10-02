@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		685828821F82EC9900654771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685828811F82EC9900654771 /* AppDelegate.swift */; };
+		685828841F82EC9900654771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685828831F82EC9900654771 /* ViewController.swift */; };
+		685828871F82EC9A00654771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685828851F82EC9900654771 /* Main.storyboard */; };
+		685828891F82EC9A00654771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685828881F82EC9A00654771 /* Assets.xcassets */; };
+		685828941F82EC9A00654771 /* basic_tvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685828931F82EC9A00654771 /* basic_tvTests.swift */; };
+		6858289F1F82EC9A00654771 /* basic_tvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6858289E1F82EC9A00654771 /* basic_tvUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		685828901F82EC9A00654771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685828761F82EC9900654771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6858287D1F82EC9900654771;
+			remoteInfo = basic_tv;
+		};
+		6858289B1F82EC9A00654771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685828761F82EC9900654771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6858287D1F82EC9900654771;
+			remoteInfo = basic_tv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6858287E1F82EC9900654771 /* basic_tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basic_tv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685828811F82EC9900654771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		685828831F82EC9900654771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		685828861F82EC9900654771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685828881F82EC9A00654771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6858288A1F82EC9A00654771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6858288F1F82EC9A00654771 /* basic_tvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basic_tvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685828931F82EC9A00654771 /* basic_tvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_tvTests.swift; sourceTree = "<group>"; };
+		685828951F82EC9A00654771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6858289A1F82EC9A00654771 /* basic_tvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basic_tvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6858289E1F82EC9A00654771 /* basic_tvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_tvUITests.swift; sourceTree = "<group>"; };
+		685828A01F82EC9A00654771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6858287B1F82EC9900654771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6858288C1F82EC9A00654771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685828971F82EC9A00654771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685828751F82EC9900654771 = {
+			isa = PBXGroup;
+			children = (
+				685828801F82EC9900654771 /* basic_tv */,
+				685828921F82EC9A00654771 /* basic_tvTests */,
+				6858289D1F82EC9A00654771 /* basic_tvUITests */,
+				6858287F1F82EC9900654771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6858287F1F82EC9900654771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6858287E1F82EC9900654771 /* basic_tv.app */,
+				6858288F1F82EC9A00654771 /* basic_tvTests.xctest */,
+				6858289A1F82EC9A00654771 /* basic_tvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685828801F82EC9900654771 /* basic_tv */ = {
+			isa = PBXGroup;
+			children = (
+				685828811F82EC9900654771 /* AppDelegate.swift */,
+				685828831F82EC9900654771 /* ViewController.swift */,
+				685828851F82EC9900654771 /* Main.storyboard */,
+				685828881F82EC9A00654771 /* Assets.xcassets */,
+				6858288A1F82EC9A00654771 /* Info.plist */,
+			);
+			path = basic_tv;
+			sourceTree = "<group>";
+		};
+		685828921F82EC9A00654771 /* basic_tvTests */ = {
+			isa = PBXGroup;
+			children = (
+				685828931F82EC9A00654771 /* basic_tvTests.swift */,
+				685828951F82EC9A00654771 /* Info.plist */,
+			);
+			path = basic_tvTests;
+			sourceTree = "<group>";
+		};
+		6858289D1F82EC9A00654771 /* basic_tvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6858289E1F82EC9A00654771 /* basic_tvUITests.swift */,
+				685828A01F82EC9A00654771 /* Info.plist */,
+			);
+			path = basic_tvUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6858287D1F82EC9900654771 /* basic_tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685828A31F82EC9A00654771 /* Build configuration list for PBXNativeTarget "basic_tv" */;
+			buildPhases = (
+				6858287A1F82EC9900654771 /* Sources */,
+				6858287B1F82EC9900654771 /* Frameworks */,
+				6858287C1F82EC9900654771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = basic_tv;
+			productName = basic_tv;
+			productReference = 6858287E1F82EC9900654771 /* basic_tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6858288E1F82EC9A00654771 /* basic_tvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685828A61F82EC9A00654771 /* Build configuration list for PBXNativeTarget "basic_tvTests" */;
+			buildPhases = (
+				6858288B1F82EC9A00654771 /* Sources */,
+				6858288C1F82EC9A00654771 /* Frameworks */,
+				6858288D1F82EC9A00654771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685828911F82EC9A00654771 /* PBXTargetDependency */,
+			);
+			name = basic_tvTests;
+			productName = basic_tvTests;
+			productReference = 6858288F1F82EC9A00654771 /* basic_tvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685828991F82EC9A00654771 /* basic_tvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685828A91F82EC9A00654771 /* Build configuration list for PBXNativeTarget "basic_tvUITests" */;
+			buildPhases = (
+				685828961F82EC9A00654771 /* Sources */,
+				685828971F82EC9A00654771 /* Frameworks */,
+				685828981F82EC9A00654771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6858289C1F82EC9A00654771 /* PBXTargetDependency */,
+			);
+			name = basic_tvUITests;
+			productName = basic_tvUITests;
+			productReference = 6858289A1F82EC9A00654771 /* basic_tvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685828761F82EC9900654771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Alex Escalante";
+				TargetAttributes = {
+					6858287D1F82EC9900654771 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					6858288E1F82EC9A00654771 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6858287D1F82EC9900654771;
+					};
+					685828991F82EC9A00654771 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6858287D1F82EC9900654771;
+					};
+				};
+			};
+			buildConfigurationList = 685828791F82EC9900654771 /* Build configuration list for PBXProject "basic_tv" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685828751F82EC9900654771;
+			productRefGroup = 6858287F1F82EC9900654771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6858287D1F82EC9900654771 /* basic_tv */,
+				6858288E1F82EC9A00654771 /* basic_tvTests */,
+				685828991F82EC9A00654771 /* basic_tvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6858287C1F82EC9900654771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685828891F82EC9A00654771 /* Assets.xcassets in Resources */,
+				685828871F82EC9A00654771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6858288D1F82EC9A00654771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685828981F82EC9A00654771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6858287A1F82EC9900654771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685828841F82EC9900654771 /* ViewController.swift in Sources */,
+				685828821F82EC9900654771 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6858288B1F82EC9A00654771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685828941F82EC9A00654771 /* basic_tvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685828961F82EC9A00654771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6858289F1F82EC9A00654771 /* basic_tvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685828911F82EC9A00654771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6858287D1F82EC9900654771 /* basic_tv */;
+			targetProxy = 685828901F82EC9A00654771 /* PBXContainerItemProxy */;
+		};
+		6858289C1F82EC9A00654771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6858287D1F82EC9900654771 /* basic_tv */;
+			targetProxy = 6858289B1F82EC9A00654771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		685828851F82EC9900654771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685828861F82EC9900654771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685828A11F82EC9A00654771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		685828A21F82EC9A00654771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685828A41F82EC9A00654771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = basic_tv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.escacorp.basic-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		685828A51F82EC9A00654771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = basic_tv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.escacorp.basic-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		685828A71F82EC9A00654771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = basic_tvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.escacorp.basic-tvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basic_tv.app/basic_tv";
+			};
+			name = Debug;
+		};
+		685828A81F82EC9A00654771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = basic_tvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.escacorp.basic-tvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basic_tv.app/basic_tv";
+			};
+			name = Release;
+		};
+		685828AA1F82EC9A00654771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = basic_tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.escacorp.basic-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = basic_tv;
+			};
+			name = Debug;
+		};
+		685828AB1F82EC9A00654771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = basic_tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.escacorp.basic-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = basic_tv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685828791F82EC9900654771 /* Build configuration list for PBXProject "basic_tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685828A11F82EC9A00654771 /* Debug */,
+				685828A21F82EC9A00654771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685828A31F82EC9A00654771 /* Build configuration list for PBXNativeTarget "basic_tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685828A41F82EC9A00654771 /* Debug */,
+				685828A51F82EC9A00654771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685828A61F82EC9A00654771 /* Build configuration list for PBXNativeTarget "basic_tvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685828A71F82EC9A00654771 /* Debug */,
+				685828A81F82EC9A00654771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685828A91F82EC9A00654771 /* Build configuration list for PBXNativeTarget "basic_tvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685828AA1F82EC9A00654771 /* Debug */,
+				685828AB1F82EC9A00654771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685828761F82EC9900654771 /* Project object */;
+}
